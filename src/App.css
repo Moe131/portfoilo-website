@@ -1,5 +1,5 @@
 :root {
-    --background-color: #fff;
+    --background-color: #f7f7f7;
     --btn-color: #0987f2;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
@@ -48,7 +48,8 @@ h2,h3 {
 }
 
 h1 {
-    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif ;
     font-size : 32px;
 }
 
