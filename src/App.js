@@ -1,5 +1,6 @@
 import logo from './logo.jpg';
 import Hero from './components/Hero/Hero';
+import "./App.css"
 
 function App() {
   return (

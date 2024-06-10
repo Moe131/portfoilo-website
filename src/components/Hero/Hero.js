@@ -21,7 +21,7 @@ function Hero() {
     const linkedinIcon = theme === 'light' ? lightlinkedinIcon : darklinkedinIcon;
 
     return (
-    <section id="hero"> 
+    <section id="hero" className={styles.container}> 
         <div className={styles.colorModeContainer}>
             <img className={styles.hero} src={heroImg} alt="Mohammad Mirzaei Profile Picture" />
             <img className={styles.colorMode} src={themeIcon} alt="Color mode icon" onClick={toggleTheme} />
@@ -29,7 +29,7 @@ function Hero() {
         <div className={styles.info}>
             <h1>Mohammad <br/> Mirzaei </h1>
             <h2>Computer Science Student</h2>
-            <span></span>
+            <span>
             <a href="https://x.com/" target="_blank">
                 <img src={twitterIcon} al="Twitter icon" />
             </a>
@@ -39,7 +39,8 @@ function Hero() {
             <a href="https://www.linkedin.com/in/mohammad-mirzaei-bb79b0228/" target="_blank">
                 <img src={linkedinIcon} al="LinkedIn icon" />
             </a>
-            <p>
+            </span>
+            <p className="styles.description">
                 I'm a Computer Science Student here at UCI
             </p>
             <a href={CV} download>
