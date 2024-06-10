@@ -1,6 +1,7 @@
 import Hero from './components/Hero/Hero';
 import Proejcts from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
+import Contact from './components/Contact/Contact';
 import "./App.css"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Proejcts />
       <Skills />
+      <Contact />
     </div>
   );
 }

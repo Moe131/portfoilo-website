@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.emailicon {
+    display: flex;
+    width : 40px;
+}
+
+.emailbox {
+
+    display: flex;
+    flex-direction:row;
+    min-width: 250px;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+
