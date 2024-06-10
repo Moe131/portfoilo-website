@@ -11,7 +11,7 @@ import darkgithubIcon from '../../assets/github-dark.svg'
 import darklinkedinIcon from '../../assets/linkedin-dark.svg'
 import CV from '../../assets/resume.pdf'
 import { useTheme } from "../../common/ThemeContext"
-
+import data from '../../assets/data.json'
 
 function Hero() {
     const {theme, toggleTheme } = useTheme();
@@ -27,21 +27,21 @@ function Hero() {
             <img className={styles.colorMode} src={themeIcon} alt="Color mode icon" onClick={toggleTheme} />
         </div>
         <div className={styles.info}>
-            <h1>Mohammad <br/> Mirzaei </h1>
-            <h2>Computer Science Student</h2>
+            <h1> {data.firstname} <br/> {data.lastname}  </h1>
+            <h2>{data.position}</h2>
             <span>
-            <a href="https://x.com/" target="_blank">
+            <a href={data.twitterlink}  target="_blank">
                 <img src={twitterIcon} al="Twitter icon" />
             </a>
-            <a href="https://github.com/moe131" target="_blank">
+            <a href={data.githublink}  target="_blank">
                 <img src={githubIcon} al="Github icon" />
             </a>
-            <a href="https://www.linkedin.com/in/mohammad-mirzaei-bb79b0228/" target="_blank">
+            <a href={data.linkedinlink}  target="_blank">
                 <img src={linkedinIcon} al="LinkedIn icon" />
             </a>
             </span>
             <p className="styles.description">
-                I'm a Computer Science Student here at UCI
+            {data.description} 
             </p>
             <a href={CV} download>
                 <button className="hover">
