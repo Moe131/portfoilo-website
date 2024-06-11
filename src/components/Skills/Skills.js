@@ -15,17 +15,19 @@ function Skills() {
             <h1 className="sectionTitle">Skills</h1>
             <div className={styles.skillList}>
                 <SkillList src={checkMarkIcon} skill="Python" />
-                <SkillList src={checkMarkIcon} skill="C++" />
+                <SkillList src={checkMarkIcon} skill="C/C++" />
                 <SkillList src={checkMarkIcon} skill="Java" />
-                <SkillList src={checkMarkIcon} skill="ReactJS" />
+                <SkillList src={checkMarkIcon} skill="SQL" />
                 <SkillList src={checkMarkIcon} skill="AWS" />
+                <SkillList src={checkMarkIcon} skill="Git" />
+
             </div>
             <hr/>
             <div className={styles.skillList}>
+                <SkillList src={checkMarkIcon} skill="Javascript" />
+                <SkillList src={checkMarkIcon} skill="ReactJS" />
                 <SkillList src={checkMarkIcon} skill="HTML" />
                 <SkillList src={checkMarkIcon} skill="CSS" />
-                <SkillList src={checkMarkIcon} skill="Javascript" />
-                <SkillList src={checkMarkIcon} skill="Node" />
             </div>
         </section>
     )
