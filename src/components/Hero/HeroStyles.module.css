@@ -6,12 +6,15 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
+    margin-bottom: 40px;
     
     .hero {
       max-width: 200px;
       border-radius: 50%;
     }
-  
+    p {
+      max-width: 600px;
+    }
     span {
       display: flex;
       gap: 25px;
