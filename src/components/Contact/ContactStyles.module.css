@@ -22,3 +22,19 @@
 }
 
 
+@media (width >= 800px){
+    .emailicon {
+        display: flex;
+        width : 40px;
+    }
+    
+    .emailbox {
+    
+        display: flex;
+        flex-direction:row;
+        min-width: 290px;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
+    }
+  }
