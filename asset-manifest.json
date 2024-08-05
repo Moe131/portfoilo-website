@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.75a6703c.css",
-    "main.js": "/static/js/main.736146be.js",
+    "main.js": "/static/js/main.78f489d9.js",
     "static/media/food-delivery.png": "/static/media/food-delivery.d0f87c4181c8e487fe56.png",
     "static/media/cryptofolio-logo.png": "/static/media/cryptofolio-logo.404c2aa017c40492eb6a.png",
-    "static/media/resume.pdf": "/static/media/resume.e3369496b75f83359fca.pdf",
     "static/media/hero-img.jpeg": "/static/media/hero-img.ad0678dddc6d373141d1.jpeg",
     "static/media/playlistDownloader-logo.png": "/static/media/playlistDownloader-logo.71a480be707fa552f8fd.png",
+    "static/media/resume.pdf": "/static/media/resume.fd6471aea039d8ee3bb2.pdf",
     "static/media/search-engine.png": "/static/media/search-engine.5dd20eedd1dde428df0d.png",
     "static/media/crawler.jpg": "/static/media/crawler.3fbc6f9a2bcdbb9dd3ba.jpg",
     "static/media/email-dark.png": "/static/media/email-dark.03b2c4632c969ab3dbb0.png",
@@ -43,10 +43,10 @@
     "static/media/twitter-dark.svg": "/static/media/twitter-dark.c4236a95b1a54627edce47c20a871ef0.svg",
     "static/media/twitter-light.svg": "/static/media/twitter-light.4cd529fb546a15c4ba25f77c75614f35.svg",
     "main.75a6703c.css.map": "/static/css/main.75a6703c.css.map",
-    "main.736146be.js.map": "/static/js/main.736146be.js.map"
+    "main.78f489d9.js.map": "/static/js/main.78f489d9.js.map"
   },
   "entrypoints": [
     "static/css/main.75a6703c.css",
-    "static/js/main.736146be.js"
+    "static/js/main.78f489d9.js"
   ]
 }
