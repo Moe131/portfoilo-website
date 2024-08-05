@@ -10,9 +10,9 @@ function Contact(){
     const emailIcon = theme === 'light' ? emailLightIcon : emailDarkIcon;
 
     return (
-    <section className= {styles.container}>
+    <section id="contact" className= {styles.container}>
         <h1 className="SectionTitle">Contact</h1>
-        <p> If you have any questions email me at </p>
+        <p> Interested to work together? email me at </p>
         <div className={styles.emailbox}>
             <img className={styles.emailicon} src={emailIcon} alt="Email Icon" />
             <h3> mirzaem1@uci.edu</h3>  

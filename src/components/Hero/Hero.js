@@ -15,7 +15,6 @@ import data from '../../assets/data.json'
 
 function Hero() {
     const {theme, toggleTheme } = useTheme();
-    const themeIcon = theme === 'light' ? lightIcon : darkIcon;
     const twitterIcon = theme === 'light' ? lighttwitterIcon : darktwitterIcon;
     const githubIcon = theme === 'light' ? lightgithubIcon : darkgithubIcon;
     const linkedinIcon = theme === 'light' ? lightlinkedinIcon : darklinkedinIcon;
@@ -24,7 +23,6 @@ function Hero() {
     <section id="hero" className={styles.container}> 
         <div className={styles.colorModeContainer}>
             <img className={styles.hero} src={heroImg} alt="Mohammad Mirzaei Profile Picture" />
-            <img className={styles.colorMode} src={themeIcon} alt="Color mode icon" onClick={toggleTheme} />
         </div>
         <div className={styles.info}>
             <h1> {data.firstname} <br/> {data.lastname}  </h1>
