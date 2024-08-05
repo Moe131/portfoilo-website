@@ -31,11 +31,6 @@
     display: none;
 }
 
-.username {
-    color: white;
-    text-decoration: none;
-    size : 15px;
-}
 
 .navbar ul {
     display: flex;
