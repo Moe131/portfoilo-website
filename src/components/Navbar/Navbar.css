@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     align-items: center;  
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 10px;
     border-bottom: 2px solid rgb(217, 237, 231);
     .logo{
@@ -162,7 +162,10 @@
     .navbar {
         padding: 10px 10px;
         .logo{
-            width: 50px;
+            width: 42px;
+        }
+        h2 {
+            font-size: 18px;
         }
     }
 

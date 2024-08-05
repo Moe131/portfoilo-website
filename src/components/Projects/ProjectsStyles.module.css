@@ -26,6 +26,7 @@
 .projectsContainer {
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
     align-items:start;
     gap: 30px;
 }
