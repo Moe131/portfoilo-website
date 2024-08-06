@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75a6703c.css",
-    "main.js": "/static/js/main.78f489d9.js",
+    "main.css": "/static/css/main.0e769657.css",
+    "main.js": "/static/js/main.0e6d8e16.js",
     "static/media/food-delivery.png": "/static/media/food-delivery.d0f87c4181c8e487fe56.png",
     "static/media/cryptofolio-logo.png": "/static/media/cryptofolio-logo.404c2aa017c40492eb6a.png",
     "static/media/hero-img.jpeg": "/static/media/hero-img.ad0678dddc6d373141d1.jpeg",
@@ -42,11 +42,11 @@
     "static/media/checkmark-light.svg": "/static/media/checkmark-light.c8c345ee162e424f794588a227e27958.svg",
     "static/media/twitter-dark.svg": "/static/media/twitter-dark.c4236a95b1a54627edce47c20a871ef0.svg",
     "static/media/twitter-light.svg": "/static/media/twitter-light.4cd529fb546a15c4ba25f77c75614f35.svg",
-    "main.75a6703c.css.map": "/static/css/main.75a6703c.css.map",
-    "main.78f489d9.js.map": "/static/js/main.78f489d9.js.map"
+    "main.0e769657.css.map": "/static/css/main.0e769657.css.map",
+    "main.0e6d8e16.js.map": "/static/js/main.0e6d8e16.js.map"
   },
   "entrypoints": [
-    "static/css/main.75a6703c.css",
-    "static/js/main.78f489d9.js"
+    "static/css/main.0e769657.css",
+    "static/js/main.0e6d8e16.js"
   ]
 }
