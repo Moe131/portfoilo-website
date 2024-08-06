@@ -5,6 +5,8 @@ import blackMenuIcon from "../../assets/menu-black.png"
 import logo from "../../assets/logo.jpg"
 import lightIcon from '../../assets/light-icon.svg'
 import darkIcon from '../../assets/dark-icon.svg'
+import blackCross from '../../assets/back-cross.png'
+import whiteCross from '../../assets/white-cross.png'
 import { useTheme } from "../../common/ThemeContext"
 import "./Navbar.css"
 
@@ -16,6 +18,7 @@ function Navbar(props) {
     const {theme, toggleTheme } = useTheme();
     const themeIcon = theme === 'light' ? lightIcon : darkIcon;
     const menuIcon = theme === 'light' ? blackMenuIcon : whiteMenuIcon;
+    const menuCloseIcon = theme === 'light' ? blackCross : whiteCross;
 
     function handleChange(event){
         setMenu(!menuChecked)
@@ -43,7 +46,7 @@ function Navbar(props) {
             </div>
             <input type="checkbox" onChange={handleChange} value={menuChecked} id="check" name="check"/>
             <label  htmlFor="check" className="check-btn">
-                <img className="menu-icon" src={menuIcon} alt="menu icon" />
+                <img className="menu-icon" src={menuChecked? menuIcon : menuCloseIcon} alt="menu icon" />
             </label>
         </div>
     )
